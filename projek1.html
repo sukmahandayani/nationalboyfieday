@@ -722,16 +722,15 @@
             animateHearts();
         };
         function sendToWA() {
-    // ⚠️ PENTING: Ganti nomor di bawah ini dengan nomor WhatsApp kamu sendiri!
-    // Gunakan kode negara 62 di depan dan tanpa angka 0 (Contoh: 6281234567890)
+    // Nomor WhatsApp kamu
     const nomorWA = "6283823931665"; 
     
     // Pesan otomatis yang dikirim pasangan ke WhatsApp kamu
-    const pesan = "Makasih banyak ya, Sayang";
+    const pesan = "Makasih banyak ya, Sayang ❤️";
     
     // Memberi jeda 0.5 detik supaya efek konfeti hati muncul dulu baru membuka WA
     setTimeout(() => {
-        const url = `https://wa.me/${6283823931665}?text=${encodeURIComponent(pesan)}`;
+        const url = `https://wa.me/${nomorWA}?text=${encodeURIComponent(pesan)}`;
         window.open(url, '_blank');
     }, 500);
 }
